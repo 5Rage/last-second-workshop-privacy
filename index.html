@@ -33,7 +33,7 @@
   <li>The game has no accounts, no sign-in and no chat. We do not ask for your name, email, location, contacts or photos.</li>
   <li>Your progress is saved only on your device. We do not run servers that receive your game data.</li>
   <li>Purchases are handled by Google Play. We never see your payment details.</li>
-  <li>Video ads are optional and off until you choose to turn them on. If you enable them, Unity’s ad service receives device and ad information to show ads.</li>
+  <li>Video ads are optional and off until you choose to turn them on. If you enable them, Google AdMob receives device and ad information to show ads. Before ads can be enabled, the game asks your age range so children get child-safe ads.</li>
   <li>We do not sell your personal information.</li>
 </ul>
 
@@ -41,7 +41,7 @@
 <p>The game saves the following on your device so you can continue playing:</p>
 <ul>
   <li>Game progress: resources, machines, research, discoveries, story choices and tutorial progress.</li>
-  <li>Settings, such as volume and reduced motion.</li>
+  <li>Settings, such as volume and reduced motion, and your answer to the age question (an age range, not a birth date).</li>
   <li>Records of items you own: purchase and transaction identifiers from Google Play, the items they delivered, and records of earned ad rewards, so items are delivered exactly once.</li>
 </ul>
 <p>This information stays on your device. It is not sent to us.</p>
@@ -54,19 +54,19 @@
 <p>If you buy something in the game, the purchase is processed by Google Play under your Google account. Google handles your payment details; we never receive them. To deliver your item, the game receives from Google a purchase confirmation containing a transaction identifier and the product purchased, and stores it on your device.</p>
 <p>Google’s handling of your information is described in the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
 
-<h2>4. Optional rewarded video ads (Unity LevelPlay)</h2>
+<h2>4. Optional rewarded video ads (Google AdMob)</h2>
 <p>The game can offer optional video ads that give a temporary in-game bonus. <strong>Ads are off by default.</strong> They load only after you choose to enable them in the game’s Shop, and you can turn them off again at any time from the same place. There are no forced ads. The Ad-Free Workshop Pass lets you claim the same bonus without watching an ad.</p>
-<p>If you enable ads, they are provided by Unity LevelPlay, a service of Unity Technologies, and its advertising partners. To show and measure ads and prevent fraud, they may collect:</p>
+<p>Before ads can be enabled, the game asks which age range you are in: under 13, 13 to 15, or 16 and older. Your answer is stored only on your device and decides how ads are requested (see section 5). If you enable ads, they are provided by Google AdMob, a service of Google LLC. To show and measure ads and prevent fraud, AdMob may collect:</p>
 <ul>
   <li>device information, such as device model, operating system, language and screen size;</li>
   <li>the device’s advertising identifier, where permitted (see section 5 for children);</li>
   <li>your IP address and approximate location derived from it;</li>
   <li>information about the ads shown and your interactions with them.</li>
 </ul>
-<p>How Unity and its partners use this information is described in <a href="https://unity.com/legal/game-player-and-app-user-privacy-policy">Unity’s Game Player and App User Privacy Policy</a>. You can reset or delete your advertising ID, or opt out of personalised ads, in your Android device settings under Google &gt; Ads (or Privacy &gt; Ads).</p>
+<p>If you are 16 or older and in a region that requires it, such as the European Economic Area or the United Kingdom, Google’s consent form asks whether ads may be personalised before any ad loads. How Google uses this information is described in <a href="https://policies.google.com/technologies/partner-sites">How Google uses information from sites or apps that use its services</a> and the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>. You can reset or delete your advertising ID, or opt out of personalised ads, in your Android device settings under Google &gt; Ads (or Privacy &gt; Ads).</p>
 
 <h2>5. Children</h2>
-<p>The game is suitable for players of all ages. When the game is played by a child, or when we cannot confirm a player’s age, ads are treated as child-directed: they are not personalised, the advertising identifier is not collected, and only ad networks that meet Google Play’s Families policy requirements are used. Children can play the full game without ads or purchases.</p>
+<p>The game is suitable for players of all ages. Ads never start until the age question is answered. For players who say they are under 13, ad requests are marked as child-directed: ads are not personalised and the advertising identifier is not used. Players aged 13 to 15 are treated as under the age of consent, so ads are not personalised. All ads are limited to content suitable for general audiences (rated G). Children can play the full game without ads or purchases.</p>
 <p>We do not knowingly collect personal information from children. If you believe a child has provided personal information through the game, contact us and we will help delete it.</p>
 
 <h2>6. Who information is shared with</h2>
@@ -74,7 +74,7 @@
 <table>
   <tr><th>Recipient</th><th>What</th><th>When</th></tr>
   <tr><td>Google (Google Play)</td><td>Purchase details, handled under your Google account</td><td>Only when you make a purchase</td></tr>
-  <tr><td>Unity Technologies (LevelPlay) and its ad partners</td><td>Device and ad information listed in section 4</td><td>Only if you enable optional ads</td></tr>
+  <tr><td>Google (AdMob)</td><td>Device and ad information listed in section 4</td><td>Only if you enable optional ads</td></tr>
   <tr><td>Unity Technologies (engine)</td><td>Anonymous technical statistics, if sent</td><td>As described in section 2</td></tr>
 </table>
 </div>
@@ -84,14 +84,14 @@
 <ul>
   <li>Game data stays on your device until you delete it. Uninstalling the game, or clearing its storage in Android settings, deletes your progress. We cannot recover it.</li>
   <li>Purchase records are also kept by Google under your Google account, so you can restore permanent purchases.</li>
-  <li>Information collected by Unity LevelPlay is kept under Unity’s policies. You can ask Unity to access or delete it through the options in Unity’s privacy policy, and you can reset your advertising ID at any time.</li>
+  <li>Information collected by Google AdMob is kept under Google’s policies. You can manage it through your Google account settings, and you can reset your advertising ID at any time.</li>
 </ul>
 
 <h2>8. Your rights</h2>
-<p>Depending on where you live, including under New Zealand’s Privacy Act 2020, the EU and UK GDPR, and US state privacy laws, you may have the right to access, correct or delete personal information about you, or to object to its use. Because we do not hold personal information about you on our systems, most requests are best handled on your device or with Google or Unity directly, but we are happy to help. Contact us at <a href="mailto:privacy@blairslab.co.nz">privacy@blairslab.co.nz</a>.</p>
+<p>Depending on where you live, including under New Zealand’s Privacy Act 2020, the EU and UK GDPR, and US state privacy laws, you may have the right to access, correct or delete personal information about you, or to object to its use. Because we do not hold personal information about you on our systems, most requests are best handled on your device or with Google directly, but we are happy to help. Contact us at <a href="mailto:privacy@blairslab.co.nz">privacy@blairslab.co.nz</a>.</p>
 
 <h2>9. Security</h2>
-<p>Your game data is stored in the game’s private storage on your device. Purchases and ads are handled by Google and Unity using their own security measures.</p>
+<p>Your game data is stored in the game’s private storage on your device. Purchases and ads are handled by Google using its own security measures.</p>
 
 <h2>10. Changes to this policy</h2>
 <p>If we change how the game handles information, we will update this page and its effective date before the change takes effect. Significant changes will also be noted in the game’s update notes.</p>
